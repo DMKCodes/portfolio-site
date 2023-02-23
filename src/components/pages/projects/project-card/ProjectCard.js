@@ -15,7 +15,12 @@ const ProjectCard = ({ project }) => {
                 </div>
                 <div className='card-back'>
                     <p className='card-body'>{description}</p>
-                    <a href={url} className='card-icon'>
+                    <a
+                        href={url}
+                        className='card-icon'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <FontAwesomeIcon
                             icon={projectCardIcon}
                             size='3x'
