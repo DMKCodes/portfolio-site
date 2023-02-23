@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .projects-page {
+        padding-top: 3rem;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .projects-list {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

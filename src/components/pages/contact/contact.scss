@@ -1,0 +1,34 @@
+.contact-page {
+    align-items: center;
+    letter-spacing: var(--far);
+
+    .contact-body {
+        width: 100%;
+
+        .contact-content {
+            letter-spacing: var(--close);
+
+            a {
+                color: white;
+                text-decoration: none !important;
+            }
+            a:hover {
+                color: yellow;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        padding-top: 3rem;
+        align-items: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

@@ -1,0 +1,52 @@
+.footer {
+    height: 6%;
+    letter-spacing: var(--far);
+    border-top: 1px solid rgba(255,255,255,0.3);
+
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+
+    .container-fluid {
+        height: 100%;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+
+        .nav-link {
+            letter-spacing: var(--far);
+            color: white;
+        }
+        .navbar-nav {
+            height: 100%;
+        }
+        .navbar-nav .nav-link.active {
+            color: yellow;
+        }
+        .nav-icon {
+            color: white;
+        }
+        .nav-icon:hover {
+            color: yellow;
+        }
+        .icon-container {
+            display: flex;
+        }
+    }
+}
+
+@media (min-height: 767.98px) {
+    .nav-link:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 400px) {
+    .container-fluid {
+        justify-content: center !important;
+    }
+    .icon-container {
+        display: none !important;
+    }
+}

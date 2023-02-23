@@ -1,0 +1,34 @@
+.bash {
+    padding-top: 6rem;
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+
+    .bash-button {
+        margin-top: 5rem;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .bash {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .bash {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .bash {
+        font-size: 5vw;
+
+        .bash-row {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+}

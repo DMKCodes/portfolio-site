@@ -1,0 +1,21 @@
+.header {
+    height: 6%;
+    letter-spacing: var(--far);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+
+    .row {
+        width: 100%;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+
+        .cv-txt {
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color: yellow;
+            }
+        }
+    }
+}

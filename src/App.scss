@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import './components/header/header.scss';
+@import './components/footer/footer.scss';
+@import './components/pages/about/about.scss';
+@import './components/pages/bash/bash.scss';
+@import './components/pages/contact/contact.scss';
+@import './components/pages/contact/contact-form/contact-form.scss';
+@import './components/pages/projects/projects.scss';
+@import './components/pages/projects/project-card/project-card.scss';
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+}
+
+:root {
+
+    // 3d translate depths
+    --z-one: translateZ(3rem);
+    --z-two: translateZ(6rem);
+    --z-three: translateZ(9rem);
+
+    // Font point sizes
+    --pt-double-canon: 4.666rem;
+    --pt-canon: 3.999rem;
+    --pt-double-great-primer: 2.999rem;
+    --pt-double-english: 2.333rem;
+    --pt-double-pica: 2rem;
+    --pt-paragon: 1.666rem;
+    --pt-great-primer: 1.5rem;
+    --pt-english: 1.166rem;
+    --pt-pica: 1rem;
+    --pt-small-pica: 0.916rem;
+    --pt-long-primer: 0.833rem;
+    --pt-bourgeois: 0.75rem;
+
+    // Letter spacing
+    --close: 1px;
+    --far: 2px;
+}
+
+.App {
+    height: 100vh;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+    .span-green {
+        color: green;
+    }
+    .span-magenta {
+        color: magenta;
+    }
+    .span-yellow {
+        color: yellow;
+    }
+    .page {
+        height: 88%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        color: white;
+
+        .subheader {
+            font-size: var(--pt-long-primer);
+            font-style: italic;
+            opacity: .4;
+        }
+        
+        .button {
+            background-color: rgba(255,255,255,0);
+            border-radius: 0;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        .button:hover {
+            background-color: yellow;
+            color: black;
+        }
+    }
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: yellow black;
+}
+  
+/* Chrome, Edge, and Safari scrollbar */
+*::-webkit-scrollbar {
+width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: yellow;
+border-radius: 20px;
+}

@@ -1,0 +1,108 @@
+.card {
+    width: 26rem;
+    background: inherit !important;
+
+    .card-content {
+        text-align: center;
+        position: relative;
+        padding: 15em 5em;
+        transition: transform 3s;
+        transform-style: preserve-3d;
+    }
+    .card-front, 
+    .card-back {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 5em 3em;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        display: grid;
+        align-content: center;
+    }
+    .card-front {
+        background: black;
+        background-size: cover;
+        background-blend-mode: overlay;
+        border: 1px solid white;
+        color: white;
+    }
+    .card-front::before {
+        content: '';
+        position: absolute;
+        top: 1em;
+        bottom: 1em;
+        left: 1em;
+        right: 1em;
+        border: 3px solid currentColor;
+        transform: var(--z-one);
+    }
+    .card-title {
+        font-size: 3rem;
+        transform: var(--z-three);
+        order: 2;
+        text-transform: uppercase;
+        padding-top: .2em;
+    }
+    .card-subtitle {
+        transform: var(--z-two);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: .75rem;
+        font-weight: 700;
+        opacity: .7;
+    }
+    .card-body {
+        transform: var(--z-two);
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+    .card-back {
+        background: black;
+        transform: rotateY(.5turn);
+        color: white;
+        border: 1px solid white;
+
+        p {
+            padding: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    .card-icon {
+        transform: var(--z-one);
+        color: inherit;
+    }
+}
+
+.card:hover .card-content {
+    transform: rotateY(.5turn);
+}
+
+.card:hover .card-front {
+    background: green;
+    color: yellow;
+    border: 1px solid black;
+}
+
+.card:hover .card-back {
+    background: yellow;
+    color: green;
+    border: 1px solid black;
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: var(--pt-double-english) !important;
+    }
+}
+
+@media (max-width: 410px) {
+    .card-title {
+        font-size: var(--pt-double-pica) !important;
+    }
+}
