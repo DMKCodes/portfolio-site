@@ -4,7 +4,7 @@ import ProjectCard from './project-card/ProjectCard';
 
 const ProjectsPage = () => {
     return (
-        <Container className='page projects-page d-flex flex-column justify-content-center'>
+        <Container className='page projects-page d-flex flex-column justify-content-start justify-content-xl-center'>
             <Row className='projects-header'>
             <h2>projects/</h2>
                 <p className='subheader mb-2'>ProjectsList.js</p>

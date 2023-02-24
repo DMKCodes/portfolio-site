@@ -55,7 +55,7 @@ const AboutPage = () => {
                             </AccordionHeader>
                             <AccordionBody accordionId='2'>
                                 <div className='subheader'>veteran.txt</div>
-                                I'm a United States Navy veteran who served as an Aegis Computer Network Technician from 2010 to 2014. My military service helped shape me into the person I am today. I strive to embody its core values of honor, commitment, and integrity in my craft as well as my daily life.
+                                I served in the United States Navy as an Aegis Computer Network Technician from 2010 to 2014. My military service helped shape me into the person I am today, and I strive to enshrine its core values of honor, commitment, and integrity in my craft as well as my daily life.
                             </AccordionBody>
                         </AccordionItem>
                         <AccordionItem>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                             </AccordionHeader>
                             <AccordionBody accordionId='4'>
                                 <div className='subheader'>ally.txt</div>
-                                My son, Toby, is on the autism spectrum. Raising Toby and engaging with the neurodivergent community are some of my most fulfilling experiences. Diversity is essential to personal and professional success, and I challenge myself to make the world a more inclusive place. 
+                                My son, Toby, is on the autism spectrum. Raising Toby has been the most fulfilling experience of my life. Diversity is essential to personal and professional success, and I challenge myself to make the world a more inclusive place.
                             </AccordionBody>
                         </AccordionItem>
                     </Accordion>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
 .header {
-  height: 6%;
+  height: 6vh;
   letter-spacing: var(--far);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
   .header .row {
@@ -14,7 +14,7 @@
       color: yellow; }
 
 .footer {
-  height: 6%;
+  height: 6vh;
   letter-spacing: var(--far);
   border-top: 1px solid rgba(255, 255, 255, 0.3); }
   .footer .navbar {
@@ -78,7 +78,7 @@
 
 @media (max-width: 767.98px) {
   .about-body {
-    padding-top: 3rem; } }
+    padding-top: 1rem; } }
 
 @media (max-width: 575.98px) {
   .about-body {
@@ -124,7 +124,7 @@
 
 @media (max-width: 768px) {
   .contact-page {
-    padding-top: 3rem;
+    padding-top: 1rem;
     align-items: start; } }
 
 @media (max-width: 576px) {
@@ -135,12 +135,11 @@
 .form-control {
   border-radius: 0 !important; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
   .projects-page {
-    padding-top: 3rem;
-    justify-content: start; } }
+    padding-top: 1rem; } }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   .projects-header {
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
@@ -273,7 +272,7 @@ body {
   .App .span-yellow {
     color: yellow; }
   .App .page {
-    height: 88%;
+    height: 88vh;
     overflow-y: scroll;
     overflow-x: hidden;
     color: white; }

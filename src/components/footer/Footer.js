@@ -9,7 +9,7 @@ import { footerIcons } from '../../media/ICONS';
 
 const Footer = ({ showFooterLinks }) => {
     return (
-        <Navbar className='footer navbar-dark' expand='md'>
+        <Navbar className='footer navbar-dark fixed-bottom' expand='md'>
             <Nav navbar className='d-flex flex-row align-items-center'>
                 {showFooterLinks &&
                     <>
