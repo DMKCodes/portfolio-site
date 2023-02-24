@@ -8,7 +8,7 @@ import AboutPage from './components/pages/about/AboutPage';
 import ProjectsPage from './components/pages/projects/ProjectsPage';
 import ContactPage from './components/pages/contact/ContactPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/style.css';
+import './css/styles.css';
 
 function App() {
     const [showHeader, setShowHeader] = useState(true);
@@ -20,9 +20,9 @@ function App() {
             {showHeader && <Header />}
             <Routes>
                 <Route path='/' element={
-                    <Bash 
-                        setShowHeader={setShowHeader} 
-                        setShowFooter={setShowFooter} 
+                    <Bash
+                        setShowHeader={setShowHeader}
+                        setShowFooter={setShowFooter}
                         setShowFooterLinks={setShowFooterLinks}
                     />
                 } />

@@ -219,14 +219,12 @@
   transform: rotateY(0.5turn); }
 
 .card:hover .card-front {
-  background: green;
   color: yellow;
-  border: 1px solid black; }
+  border: 1px solid yellow; }
 
 .card:hover .card-back {
-  background: yellow;
-  color: green;
-  border: 1px solid black; }
+  color: yellow;
+  border: 1px solid yellow; }
 
 @media (max-width: 576px) {
   .card-title {
