@@ -22,7 +22,7 @@ const Header = () => {
                 </Col>
                 <Col xs='6' className='header-content p-0'>
                     <p className='cv-txt float-end mb-0'>
-                        <a href='dkissack-resume.pdf' download>
+                        <a href='dkissack-resume.docx' download>
                             cv.
                         </a>
                     </p>
