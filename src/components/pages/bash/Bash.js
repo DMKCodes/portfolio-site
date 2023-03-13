@@ -17,63 +17,69 @@ const Bash = ({ setShowHeader, setShowFooter, setShowFooterLinks }) => {
         return;
     };
 
+    const cd = () => {
+        document.getElementsByClassName('directory')[0].innerHTML = '&nbsp;&nbsp;~/dmkcodes'
+    };
+
     return (
         <Container className='page bash'>
             <Row className='bash-row'>
                 <Col xs='12'>
                     <span className='span-green'>Codes@DMK</span>
                     <span className='span-magenta'>&nbsp;MINGW64</span>
-                    <span className='span-yellow'>&nbsp;&nbsp;~</span>
+                    <span className='directory span-yellow'>&nbsp;&nbsp;~</span>
                 </Col>
             </Row>
             <Row className='bash-row'>
                 <Col xs='1'>$</Col>
                 <Col xs='11'>
                     <Typewriter
-                        delay={50}
+                        delay={10}
                         onInit={(typewriter) => {
                             typewriter
                                 .typeString("Hi, I'm Duog")
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .deleteChars(4)
                                 .typeString('Doug. ')
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .typeString("Let's make a web app.")
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .typeString('npx create-react-app dmkcodes')
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
+                                .pauseFor(400)
+                                .typeString('cd dmkcodes')
+                                .pauseFor(200)
+                                .callFunction(() => cd())
+                                .pauseFor(400)
+                                .callFunction(() => clearTypewriter())
+                                .pauseFor(400)
                                 .typeString('mkdir components')
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .typeString('touch components/Header.js')
-                                .pauseFor(250)
+                                .pauseFor(200)
                                 .callFunction(() => setShowHeader(true))
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .typeString('touch components/Footer.js')
-                                .pauseFor(250)
+                                .pauseFor(200)
                                 .callFunction(() => setShowFooter(true))
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
-                                .typeString('mkdir pages')
-                                .pauseFor(1000)
-                                .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
-                                .typeString('touch pages/\n{AboutPage.js,\nProjectsPage.js,\nContactPage.js}')
-                                .pauseFor(250)
+                                .pauseFor(400)
+                                .typeString('touch components/{About.js,\nProjects.js,\nContact.js}')
+                                .pauseFor(200)
                                 .callFunction(() => setShowFooterLinks(true))
-                                .pauseFor(1000)
+                                .pauseFor(800)
                                 .callFunction(() => clearTypewriter())
-                                .pauseFor(500)
-                                .typeString('cd pages/about && exit')
-                                .pauseFor(1000)
+                                .pauseFor(800)
+                                .typeString('npm start')
+                                .pauseFor(800)
                                 .callFunction(() => {
                                     const path = '/about';
                                     navigate(path);
@@ -84,8 +90,8 @@ const Bash = ({ setShowHeader, setShowFooter, setShowFooterLinks }) => {
                 </Col>
             </Row>
             <Row className='button-row d-flex justify-content-center'>
-                <Button 
-                    className='button bash-button' 
+                <Button
+                    className='button bash-button'
                     onClick={() => {
                         setShowHeader(true);
                         setShowFooter(true);

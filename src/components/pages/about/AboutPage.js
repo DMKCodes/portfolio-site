@@ -12,13 +12,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { skillIcons, aboutIcons } from '../../../media/ICONS';
 
 const AboutPage = () => {
-    const [open, setOpen] = useState(null);
+    const [open, setOpen] = useState([]);
 
     const toggle = (id) => {
         if (open === id) {
-            setOpen();
+            setOpen([]);
         } else {
-            setOpen(id);
+            if (id === undefined) {
+                setOpen([]);
+            } else {
+                setOpen(id);
+            }
         }
     };
 
