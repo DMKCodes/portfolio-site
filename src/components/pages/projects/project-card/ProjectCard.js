@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { projectCardIcons } from '../../../../media/ICONS';
 import camping from '../../../../media/camping.jpg';
 import code from '../../../../media/code.jpg';
-import lair from '../../../../media/lair.png';
+import lair from '../../../../media/lair.jpg';
 import pokemon from '../../../../media/pokemon.jpg';
 
 const ProjectCard = ({ project }) => {

@@ -1,3 +1,10 @@
+.projects-page {
+    h2,
+    p {
+        letter-spacing: var(--far);
+    }
+}
+
 @media (max-height: 700px) {
     .projects-page {
         justify-content: start !important;

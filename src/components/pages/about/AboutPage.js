@@ -40,11 +40,11 @@ const AboutPage = () => {
                                         fixedWidth
                                         className='pe-3'
                                 />
-                                the-developer/
+                                the_developer/
                             </AccordionHeader>
                             <AccordionBody accordionId='1' className='pt-0'>
                                 <div className='subheader'>developer.txt</div>
-                                I'm an honors graduate of Nucamp's Full Stack Software Engineering Bootcamp. My priority is to deliver clean, responsive, and performant code using time-tested practices, but I don't shy from taking risks to deliver a memorable user experience. Currently, I most enjoy building web and mobile apps with React, React Native, Redux, and Node. 
+                                I'm an honors graduate of Nucamp's Full Stack Software Engineering Bootcamp. My priority is to deliver clean, responsive, and performant code using time-tested practices, but I don't shy from taking risks to deliver a memorable user experience. Currently, I most enjoy building web and mobile apps with the MERN stack. 
                             </AccordionBody>
                         </AccordionItem>
                         <AccordionItem>
@@ -55,10 +55,10 @@ const AboutPage = () => {
                                         fixedWidth
                                         className='pe-3'
                                 />
-                                the-veteran/
+                                the_sailor/
                             </AccordionHeader>
                             <AccordionBody accordionId='2'>
-                                <div className='subheader'>veteran.txt</div>
+                                <div className='subheader'>sailor.txt</div>
                                 I served in the United States Navy as an Aegis Computer Network Technician from 2010 to 2014. My military service helped shape me into the person I am today, and I strive to enshrine its core values of honor, commitment, and integrity in my craft as well as my daily life.
                             </AccordionBody>
                         </AccordionItem>
@@ -70,7 +70,7 @@ const AboutPage = () => {
                                         fixedWidth
                                         className='pe-3'
                                 />
-                                the-environmentalist/
+                                the_environmentalist/
                             </AccordionHeader>
                             <AccordionBody accordionId='3'>
                                 <div className='subheader'>environmentalist.txt</div>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                                         fixedWidth
                                         className='pe-3'
                                 />
-                                the-ally/
+                                the_ally/
                             </AccordionHeader>
                             <AccordionBody accordionId='4'>
                                 <div className='subheader'>ally.txt</div>
@@ -101,7 +101,7 @@ const AboutPage = () => {
                             return (
                                 <Col 
                                     xs='4' 
-                                    className='skill-col text-center pt-3 pb-3'
+                                    className='skill-col text-center pt-2 pb-2'
                                     key={icon.id}
                                 >
                                     <FontAwesomeIcon 
