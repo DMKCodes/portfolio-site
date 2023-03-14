@@ -8,18 +8,11 @@
 @import './components/pages/projects/projects.scss';
 @import './components/pages/projects/project-card/project-card.scss';
 
-html {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-}
-
 html, body {
     overflow-x: hidden;
 }
 
 body {
-    margin: 0;
     background-color: black;
     font-family: 'Archivo', sans-serif;
 }
@@ -55,6 +48,7 @@ body {
 }
 
 .App {
+    position: fixed;
     height: 100%;
     padding: 0;
 
@@ -71,7 +65,7 @@ body {
         color: yellow;
     }
     .page {
-        height: 88vh;
+        height: 88%;
         overflow-y: scroll;
         overflow-x: hidden;
         color: white;
