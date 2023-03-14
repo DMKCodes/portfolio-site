@@ -18,7 +18,8 @@ import {
     faHandHoldingHeart ,
     faPhone,
     faEnvelope,
-    faAddressBook
+    faAddressBook,
+    faArrowRotateRight
 } from '@fortawesome/free-solid-svg-icons';
 
 export const skillIcons = [
@@ -45,7 +46,10 @@ export const footerIcons = [
     faLinkedinIn
 ];
 
-export const projectCardIcon = faGithub;
+export const projectCardIcons = [
+    faGithub,
+    faArrowRotateRight
+];
 
 export const contactIcons = [
     faPhone,

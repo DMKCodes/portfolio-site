@@ -2,6 +2,7 @@
     height: 6vh;
     letter-spacing: var(--far);
     border-top: 1px solid rgba(255,255,255,0.3);
+    font-size: var(--pt-english);
 
     .navbar {
         --bs-navbar-padding-y: 0;
@@ -42,7 +43,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
     .container-fluid {
         justify-content: center !important;
     }

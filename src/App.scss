@@ -19,7 +19,6 @@ body {
 }
 
 :root {
-
     // 3d translate depths
     --z-one: translateZ(3rem);
     --z-two: translateZ(6rem);
@@ -31,6 +30,7 @@ body {
     --pt-double-great-primer: 2.999rem;
     --pt-double-english: 2.333rem;
     --pt-double-pica: 2rem;
+    --pt-robust: 1.72rem;
     --pt-paragon: 1.666rem;
     --pt-great-primer: 1.5rem;
     --pt-english: 1.166rem;
@@ -38,10 +38,14 @@ body {
     --pt-small-pica: 0.916rem;
     --pt-long-primer: 0.833rem;
     --pt-bourgeois: 0.75rem;
+    --pt-petite: 0.6rem;
 
     // Letter spacing
     --close: 1px;
     --far: 2px;
+
+    // Clear color
+    --clr: #363c44;
 }
 
 .App {

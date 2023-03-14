@@ -8,7 +8,7 @@ import AboutPage from './components/pages/about/AboutPage';
 import ProjectsPage from './components/pages/projects/ProjectsPage';
 import ContactPage from './components/pages/contact/ContactPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/styles.css';
+import './App.scss';
 
 function App() {
     const [showHeader, setShowHeader] = useState(true);

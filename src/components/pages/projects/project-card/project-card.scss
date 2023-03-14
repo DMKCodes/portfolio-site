@@ -1,6 +1,5 @@
 .card {
     width: 26rem;
-    background: inherit !important;
 
     .card-content {
         text-align: center;
@@ -9,9 +8,9 @@
         transition: transform 3s;
         transform-style: preserve-3d;
     }
-
     .card-front,
     .card-back {
+        height: 100%;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -23,15 +22,13 @@
         display: grid;
         align-content: center;
     }
-
     .card-front {
-        background: black;
+        background-color: var(--clr);
         background-size: cover;
         background-blend-mode: overlay;
         border: 1px solid white;
         color: white;
     }
-
     .card-front::before {
         content: '';
         position: absolute;
@@ -42,49 +39,46 @@
         border: 3px solid currentColor;
         transform: var(--z-one);
     }
-
     .card-title {
-        font-size: 3rem;
+        font-size: var(--pt-double-great-primer);
         transform: var(--z-three);
-        order: 2;
         text-transform: uppercase;
         padding-top: .2em;
     }
-
     .card-subtitle {
         transform: var(--z-two);
         text-transform: uppercase;
         letter-spacing: 3px;
-        font-size: .75rem;
+        font-size: var(--pt-bourgeois);
         font-weight: 700;
-        opacity: .7;
+        opacity: 0.8;
     }
-
     .card-body {
         transform: var(--z-two);
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: var(--pt-english);
         line-height: 1.6;
     }
-
     .card-back {
-        background: black;
+        background-color: var(--clr);
+        background-blend-mode: overlay;
+        background-size: cover;
         transform: rotateY(.5turn);
-        color: white;
         border: 1px solid white;
+        color: white;
 
         p {
             padding: 0;
         }
     }
-
     a {
         text-decoration: none;
     }
-
-    .card-icon {
+    .gh-icon,
+    .flip-icon {
         transform: var(--z-one);
         color: inherit;
+        --fa-animation-duration: 3s;
     }
 }
 
@@ -92,24 +86,25 @@
     transform: rotateY(.5turn);
 }
 
-.card:hover .card-front {
-    color: yellow;
-    border: 1px solid yellow;
-}
+@media (max-width: 767.98px) {
+    .card {
+        width: 20rem;
 
-.card:hover .card-back {
-    color: yellow;
-    border: 1px solid yellow;
-}
-
-@media (max-width: 576px) {
-    .card-title {
-        font-size: var(--pt-double-english) !important;
+        .card-title {
+            font-size: var(--pt-double-english);
+        }
+        .card-subtitle {
+            font-size: var(--pt-petite)
+        }
     }
 }
 
-@media (max-width: 410px) {
-    .card-title {
-        font-size: var(--pt-double-pica) !important;
+@media (max-width: 455px) {
+    .card {
+        width: 16rem;
+
+        .card-title {
+            font-size: var(--pt-robust);
+        }
     }
 }

@@ -1,0 +1,13 @@
+@media (max-height: 700px) {
+    .projects-page {
+        justify-content: start !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .projects-header {
+        padding-left: 2rem;
+    }
+}
