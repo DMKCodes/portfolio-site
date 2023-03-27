@@ -9,8 +9,8 @@ export const PROJECTS = [
     {
         id: 2,
         name: 'MERN Boiler',
-        stack: ['MongoDB', 'Express', 'React', 'Node.js'],
-        description: 'A MERN boilerplate with RESTful API for rapid development and deployment of full stack applications.',
+        stack: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT Auth', 'Redux', 'RTK API'],
+        description: 'A robust MERN boilerplate with RESTful API for rapid development of secure, full stack applications.',
         url: 'https://github.com/DMKCodes/mern-boilerplate'
     },
     {
@@ -24,7 +24,7 @@ export const PROJECTS = [
         id: 4,
         name: 'The Lair',
         stack: ['Python', 'OOP', 'Procedural Gen', 'RPG'],
-        description: 'A nostalgic, roguelike text RPG.',
+        description: 'A nostalgic, 1980s-style text RPG with roguelike elements and procedural generation.',
         url: 'https://github.com/DMKCodes/the-lair'
     },
 ];

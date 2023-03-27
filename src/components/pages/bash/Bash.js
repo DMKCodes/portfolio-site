@@ -24,7 +24,7 @@ const Bash = ({ setShowHeader, setShowFooter, setShowFooterLinks }) => {
     return (
         <Container className='page bash'>
             <Row className='bash-row'>
-                <Col xs='12'>
+                <Col xs='10'>
                     <span className='span-green'>Codes@DMK</span>
                     <span className='span-magenta'>&nbsp;MINGW64</span>
                     <span className='directory span-yellow'>&nbsp;&nbsp;~</span>

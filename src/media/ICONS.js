@@ -30,7 +30,7 @@ export const skillIcons = [
     {id: 5, text: 'React', icon: faReact}, 
     {id: 6, text: 'Node.js', icon: faNodeJs},
     {id: 7, text: 'Python', icon: faPython}, 
-    {id: 8, text: 'SQL', icon: faDatabase},
+    {id: 8, text: 'Mongo', icon: faDatabase},
     {id: 9, text: 'Git', icon: faGit}
 ];
 
