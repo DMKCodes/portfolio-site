@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
     return (
         <div className='card mx-auto' id={id}>
             <div className='card-content'>
-                <div className='card-front' style={{ backgroundImage: `url(${getBg(id)})` }}>
+                <div className='card-front' style={{ backgroundImage: img }}>
                     <h3 className='card-title'>{name}</h3>
                     <p className='card-subtitle'>{stack.join(', ')}</p>
                     <span className='flip-icon'>
