@@ -1,24 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { projectCardIcons } from '../../../../media/ICONS';
-import camping from '../../../../media/camping.jpg';
-import code from '../../../../media/code.jpg';
-import lair from '../../../../media/lair.jpg';
-import pokemon from '../../../../media/pokemon.jpg';
 
 const ProjectCard = ({ project }) => {
-    const { id, name, stack, description, url } = project;
-
-    const getBg = (id) => {
-        if (id === 1) {
-            return pokemon;
-        } else if (id === 2) {
-            return code;
-        } else if (id === 3) {
-            return camping;
-        } else if (id === 4) {
-            return lair;
-        }
-    };
+    const { id, name, stack, description, url, img } = project;
 
     return (
         <div className='card mx-auto' id={id}>
@@ -35,7 +19,7 @@ const ProjectCard = ({ project }) => {
                         />
                     </span>
                 </div>
-                <div className='card-back' style={{ backgroundImage: `url(${getBg(id)})` }}>
+                <div className='card-back' style={{ backgroundImage: img }}>
                     <p className='card-body'>{description}</p>
                     <a
                         href={url}
