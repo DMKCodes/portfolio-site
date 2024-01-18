@@ -11,7 +11,7 @@ Doug
 
 # Technical Skills
 
-This app was created using React, Redux, Bootstrap, and SASS.  Biodiversity365, which is a more current example of my comprehensive skillset, incorporates the full MERN stack, as well as RTK Query, Mongoose, JWT, and various data visualization tools including Recharts and Scrollama.  
+This app was created using React, Redux, Bootstrap, and Sass.  Biodiversity365, which is a more current example of my comprehensive skillset, incorporates the full MERN stack, as well as RTK Query, Mongoose, JWT, and various data visualization tools including Recharts and Scrollama.  
 
 My focus is on robust, secure, and dynamic full-stack development.  I am actively advancing my skills in Next.js, TypeScript, and TailwindCSS, and I am also proficient with Python, Flask, Docker, and SQL, though they are not my primary areas of focus at this time. 
 
