@@ -5,14 +5,14 @@ import { validateContactForm } from './validateContactForm';
 
 const ContactForm = (setMailSent) => {
     const sendEmail = (object) => {
-        emailjs.send('service_983vqe9', 'contact_form', object, 'cMM44Klo6HrPOcopj')
+        emailjs.send('service_983vqe9', 'contact_form', object, 'bAfvh5Tg7dQQkLpxN')
     };
 
     const handleSubmit = (values) => {
         setTimeout(() => {
             sendEmail(values);
             setMailSent.setMailSent(true);
-        }, 1000)
+        }, 1000);
     };
 
     return (
