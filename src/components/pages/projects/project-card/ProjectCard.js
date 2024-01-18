@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { projectCardIcons } from '../../../../media/ICONS';
 
 const ProjectCard = ({ project }) => {
-    const { id, name, stack, description, url, img } = project;
+    const { id, name, stack, description, url, status, img } = project;
     const imgUrl = `url(${img})`;
 
     return (
@@ -29,7 +29,7 @@ const ProjectCard = ({ project }) => {
                         rel='noreferrer'
                     >
                         <FontAwesomeIcon
-                            icon={projectCardIcons[0]}
+                            icon={status === 'gh' ? projectCardIcons[0] : projectCardIcons[2]}
                             size='2x'
                             bounce
                             className='m-auto mt-3'
