@@ -3,11 +3,12 @@ import { projectCardIcons } from '../../../../media/ICONS';
 
 const ProjectCard = ({ project }) => {
     const { id, name, stack, description, url, img } = project;
+    const imgUrl = `url(${img})`;
 
     return (
         <div className='card mx-auto' id={id}>
             <div className='card-content'>
-                <div className='card-front' style={{ backgroundImage: img }}>
+                <div className='card-front' style={{ backgroundImage: imgUrl }}>
                     <h3 className='card-title'>{name}</h3>
                     <p className='card-subtitle'>{stack.join(', ')}</p>
                     <span className='flip-icon'>
@@ -19,7 +20,7 @@ const ProjectCard = ({ project }) => {
                         />
                     </span>
                 </div>
-                <div className='card-back' style={{ backgroundImage: img }}>
+                <div className='card-back' style={{ backgroundImage: imgUrl }}>
                     <p className='card-body'>{description}</p>
                     <a
                         href={url}

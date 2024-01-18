@@ -2,7 +2,7 @@ import camping from '../../../../media/camping.jpg';
 import code from '../../../../media/code.jpg';
 import lair from '../../../../media/lair.jpg';
 import pokemon from '../../../../media/pokemon.jpg';
-import bio365 from '../../../../media/bio365.png';
+import bio365 from '../../../../media/bio365.jpg';
 
 export const PROJECTS = [
     {
