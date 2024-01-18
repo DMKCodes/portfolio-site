@@ -7,7 +7,7 @@ import bio365 from '../../../../media/bio365.png';
 export const PROJECTS = [
     {
         id: 1,
-        name: 'Biodiversity365',
+        name: 'Bio365',
         stack: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT Auth', 'Redux', 'RTK API', 'Heroku', 'Recharts', 'React Scrollama'],
         description: 'A biodiversity learning platform with original educational material, stories, and interactive data visualization.',
         url: 'https://biodiversity365.com/',

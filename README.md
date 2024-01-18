@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Who am I?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, I'm Doug Kissack!  I'm a Pennsylvania native, United States Navy veteran, and honors graduate of Nucamp's full-stack software engineering bootcamp.  I got my first taste of the industry in the Navy in 2012 when, as an Aegis missile defense technician, I assisted civilian contractors with Ada and Python programming.  For the next decade or so, I pursued coding as a hobbyist while transitioning to civilian life and starting my family.  In 2022, dissatisfied with my career as a sales engineer and looking to make a change to a more challenging and creative industry, I at long last pulled the trigger and started my transition to coding professionally.
 
-## Available Scripts
+Outside of work, I hold a bachelor's degree in environmental science with a focus on data analysis, data visualization, and GIS.  I created and run the Biodiversity365 learning platform (https://biodiversity365.com/), an educational resource focused on illuminating the challenges of biodiversity conservation through storytelling and interactive data visualization.  I'm also an avid game designer, game developer, and creative writer.  I feel most at home when creating, which is why software development fits me like a glove!  I'm also very active in my community, supporting conservation initiatives and the local autism support services group (in support of and alongside my son, who is autistic).
 
-In the project directory, you can run:
+I currently work in a freelance capacity on a project-by-project basis, but I'm open to entry level or intermediate roles in full-stack, front-end, or back-end development.  Please feel free to contact me with inquiries (or just to say hello!) at dmkcodes@gmail.com.
 
-### `npm start`
+Always learning,
+Doug
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technical Skills
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app was created using React, Redux, Bootstrap, and SASS.  Biodiversity365, which is a more current example of my comprehensive skillset, incorporates the full MERN stack, as well as RTK Query, Mongoose, JWT, and various data visualization tools including Recharts and Scrollama.  
 
-### `npm test`
+My focus is on robust, secure, and dynamic full-stack development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

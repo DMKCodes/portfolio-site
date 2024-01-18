@@ -10,6 +10,8 @@ const Bash = ({ setShowHeader, setShowFooter, setShowFooterLinks }) => {
         setShowHeader(false);
         setShowFooter(false);
         setShowFooterLinks(false);
+
+        // eslint-disable-next-line
     }, []);
 
     const clearTypewriter = () => {
